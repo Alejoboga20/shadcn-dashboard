@@ -4,6 +4,7 @@ const links = [
   { name: "accordion", href: "accordion" },
   { name: "alert", href: "alert" },
   { name: "button", href: "button" },
+  { name: "alert-dialog", href: "alert-dialog" },
 ];
 
 export default function DashboardLayout({
@@ -93,7 +94,7 @@ export default function DashboardLayout({
             <div className="flex items-center">
               {/* User Avatar */}
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 p-2 text-white">
-                FH
+                AB
               </div>
             </div>
           </div>
